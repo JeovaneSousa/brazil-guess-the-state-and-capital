@@ -11,9 +11,6 @@
 		28A9C3E929AE801700AC0F09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9C3E829AE801700AC0F09 /* ContentView.swift */; };
 		28A9C3EB29AE801800AC0F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A9C3EA29AE801800AC0F09 /* Assets.xcassets */; };
 		28A9C3EE29AE801800AC0F09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A9C3ED29AE801800AC0F09 /* Preview Assets.xcassets */; };
-		28A9C3F829AE801800AC0F09 /* brazil_guess_the_state_and_capitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9C3F729AE801800AC0F09 /* brazil_guess_the_state_and_capitalTests.swift */; };
-		28A9C40229AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9C40129AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITests.swift */; };
-		28A9C40429AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9C40329AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		28A9C3EA29AE801800AC0F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28A9C3ED29AE801800AC0F09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28A9C3F329AE801800AC0F09 /* brazil-guess-the-state-and-capitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "brazil-guess-the-state-and-capitalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28A9C3F729AE801800AC0F09 /* brazil_guess_the_state_and_capitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brazil_guess_the_state_and_capitalTests.swift; sourceTree = "<group>"; };
 		28A9C3FD29AE801800AC0F09 /* brazil-guess-the-state-and-capitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "brazil-guess-the-state-and-capitalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28A9C40129AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brazil_guess_the_state_and_capitalUITests.swift; sourceTree = "<group>"; };
-		28A9C40329AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brazil_guess_the_state_and_capitalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +68,6 @@
 		28A9C3DA29AE801700AC0F09 = {
 			isa = PBXGroup;
 			children = (
-				28A9C41029AE802A00AC0F09 /* SupportiveFiles */,
 				28A9C3E529AE801700AC0F09 /* brazil-guess-the-state-and-capital */,
 				28A9C3E429AE801700AC0F09 /* Products */,
 			);
@@ -96,6 +89,7 @@
 				28A9C3E629AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift */,
 				28A9C3E829AE801700AC0F09 /* ContentView.swift */,
 				28A9C3EA29AE801800AC0F09 /* Assets.xcassets */,
+				28A9C3EC29AE801800AC0F09 /* Preview Content */,
 			);
 			path = "brazil-guess-the-state-and-capital";
 			sourceTree = "<group>";
@@ -105,35 +99,7 @@
 			children = (
 				28A9C3ED29AE801800AC0F09 /* Preview Assets.xcassets */,
 			);
-			name = "Preview Content";
-			path = "brazil-guess-the-state-and-capital/Preview Content";
-			sourceTree = "<group>";
-		};
-		28A9C3F629AE801800AC0F09 /* brazil-guess-the-state-and-capitalTests */ = {
-			isa = PBXGroup;
-			children = (
-				28A9C3F729AE801800AC0F09 /* brazil_guess_the_state_and_capitalTests.swift */,
-			);
-			path = "brazil-guess-the-state-and-capitalTests";
-			sourceTree = "<group>";
-		};
-		28A9C40029AE801800AC0F09 /* brazil-guess-the-state-and-capitalUITests */ = {
-			isa = PBXGroup;
-			children = (
-				28A9C40129AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITests.swift */,
-				28A9C40329AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITestsLaunchTests.swift */,
-			);
-			path = "brazil-guess-the-state-and-capitalUITests";
-			sourceTree = "<group>";
-		};
-		28A9C41029AE802A00AC0F09 /* SupportiveFiles */ = {
-			isa = PBXGroup;
-			children = (
-				28A9C3EC29AE801800AC0F09 /* Preview Content */,
-				28A9C40029AE801800AC0F09 /* brazil-guess-the-state-and-capitalUITests */,
-				28A9C3F629AE801800AC0F09 /* brazil-guess-the-state-and-capitalTests */,
-			);
-			name = SupportiveFiles;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A9C3F829AE801800AC0F09 /* brazil_guess_the_state_and_capitalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A9C40229AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITests.swift in Sources */,
-				28A9C40429AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +388,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"brazil-guess-the-state-and-capital/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"/Users/jeovanebarbosa/Desktop/Programming/IOS/Projects/brazil-guess-the-state-and-capital/brazil-guess-the-state-and-capital/Preview Content\"";
 				DEVELOPMENT_TEAM = MV9VJQ4UL8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -454,7 +417,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"brazil-guess-the-state-and-capital/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"/Users/jeovanebarbosa/Desktop/Programming/IOS/Projects/brazil-guess-the-state-and-capital/brazil-guess-the-state-and-capital/Preview Content\"";
 				DEVELOPMENT_TEAM = MV9VJQ4UL8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
