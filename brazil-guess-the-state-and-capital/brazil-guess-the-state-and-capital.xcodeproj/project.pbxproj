@@ -86,10 +86,10 @@
 		28A9C3E529AE801700AC0F09 /* brazil-guess-the-state-and-capital */ = {
 			isa = PBXGroup;
 			children = (
+				28A9C3EC29AE801800AC0F09 /* Preview Content */,
 				28A9C3E629AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift */,
 				28A9C3E829AE801700AC0F09 /* ContentView.swift */,
 				28A9C3EA29AE801800AC0F09 /* Assets.xcassets */,
-				28A9C3EC29AE801800AC0F09 /* Preview Content */,
 			);
 			path = "brazil-guess-the-state-and-capital";
 			sourceTree = "<group>";
@@ -388,7 +388,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"/Users/jeovanebarbosa/Desktop/Programming/IOS/Projects/brazil-guess-the-state-and-capital/brazil-guess-the-state-and-capital/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"/Users/jeovanebarbosa/Desktop/Programming/IOS/Projects/brazil-guess-the-state-and-capital/brazil-guess-the-state-and-capital/brazil-guess-the-state-and-capital/Preview Content\"";
 				DEVELOPMENT_TEAM = MV9VJQ4UL8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -417,7 +417,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"/Users/jeovanebarbosa/Desktop/Programming/IOS/Projects/brazil-guess-the-state-and-capital/brazil-guess-the-state-and-capital/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"/Users/jeovanebarbosa/Desktop/Programming/IOS/Projects/brazil-guess-the-state-and-capital/brazil-guess-the-state-and-capital/brazil-guess-the-state-and-capital/Preview Content\"";
 				DEVELOPMENT_TEAM = MV9VJQ4UL8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
