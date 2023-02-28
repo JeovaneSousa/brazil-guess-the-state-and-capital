@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28A9C3E729AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9C3E629AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift */; };
+		28A9C3E929AE801700AC0F09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9C3E829AE801700AC0F09 /* ContentView.swift */; };
+		28A9C3EB29AE801800AC0F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A9C3EA29AE801800AC0F09 /* Assets.xcassets */; };
+		28A9C3EE29AE801800AC0F09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A9C3ED29AE801800AC0F09 /* Preview Assets.xcassets */; };
+		28A9C3F829AE801800AC0F09 /* brazil_guess_the_state_and_capitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9C3F729AE801800AC0F09 /* brazil_guess_the_state_and_capitalTests.swift */; };
+		28A9C40229AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9C40129AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITests.swift */; };
+		28A9C40429AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9C40329AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28A9C3F429AE801800AC0F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28A9C3DB29AE801700AC0F09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A9C3E229AE801700AC0F09;
+			remoteInfo = "brazil-guess-the-state-and-capital";
+		};
+		28A9C3FE29AE801800AC0F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28A9C3DB29AE801700AC0F09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A9C3E229AE801700AC0F09;
+			remoteInfo = "brazil-guess-the-state-and-capital";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28A9C3E329AE801700AC0F09 /* brazil-guess-the-state-and-capital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "brazil-guess-the-state-and-capital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A9C3E629AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brazil_guess_the_state_and_capitalApp.swift; sourceTree = "<group>"; };
+		28A9C3E829AE801700AC0F09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28A9C3EA29AE801800AC0F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28A9C3ED29AE801800AC0F09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28A9C3F329AE801800AC0F09 /* brazil-guess-the-state-and-capitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "brazil-guess-the-state-and-capitalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A9C3F729AE801800AC0F09 /* brazil_guess_the_state_and_capitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brazil_guess_the_state_and_capitalTests.swift; sourceTree = "<group>"; };
+		28A9C3FD29AE801800AC0F09 /* brazil-guess-the-state-and-capitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "brazil-guess-the-state-and-capitalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A9C40129AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brazil_guess_the_state_and_capitalUITests.swift; sourceTree = "<group>"; };
+		28A9C40329AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brazil_guess_the_state_and_capitalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28A9C3E029AE801700AC0F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A9C3F029AE801800AC0F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A9C3FA29AE801800AC0F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A9C3DA29AE801700AC0F09 = {
+			isa = PBXGroup;
+			children = (
+				28A9C41029AE802A00AC0F09 /* SupportiveFiles */,
+				28A9C3E529AE801700AC0F09 /* brazil-guess-the-state-and-capital */,
+				28A9C3E429AE801700AC0F09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28A9C3E429AE801700AC0F09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A9C3E329AE801700AC0F09 /* brazil-guess-the-state-and-capital.app */,
+				28A9C3F329AE801800AC0F09 /* brazil-guess-the-state-and-capitalTests.xctest */,
+				28A9C3FD29AE801800AC0F09 /* brazil-guess-the-state-and-capitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28A9C3E529AE801700AC0F09 /* brazil-guess-the-state-and-capital */ = {
+			isa = PBXGroup;
+			children = (
+				28A9C3E629AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift */,
+				28A9C3E829AE801700AC0F09 /* ContentView.swift */,
+				28A9C3EA29AE801800AC0F09 /* Assets.xcassets */,
+			);
+			path = "brazil-guess-the-state-and-capital";
+			sourceTree = "<group>";
+		};
+		28A9C3EC29AE801800AC0F09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28A9C3ED29AE801800AC0F09 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "brazil-guess-the-state-and-capital/Preview Content";
+			sourceTree = "<group>";
+		};
+		28A9C3F629AE801800AC0F09 /* brazil-guess-the-state-and-capitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				28A9C3F729AE801800AC0F09 /* brazil_guess_the_state_and_capitalTests.swift */,
+			);
+			path = "brazil-guess-the-state-and-capitalTests";
+			sourceTree = "<group>";
+		};
+		28A9C40029AE801800AC0F09 /* brazil-guess-the-state-and-capitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28A9C40129AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITests.swift */,
+				28A9C40329AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITestsLaunchTests.swift */,
+			);
+			path = "brazil-guess-the-state-and-capitalUITests";
+			sourceTree = "<group>";
+		};
+		28A9C41029AE802A00AC0F09 /* SupportiveFiles */ = {
+			isa = PBXGroup;
+			children = (
+				28A9C3EC29AE801800AC0F09 /* Preview Content */,
+				28A9C40029AE801800AC0F09 /* brazil-guess-the-state-and-capitalUITests */,
+				28A9C3F629AE801800AC0F09 /* brazil-guess-the-state-and-capitalTests */,
+			);
+			name = SupportiveFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A9C3E229AE801700AC0F09 /* brazil-guess-the-state-and-capital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A9C40729AE801800AC0F09 /* Build configuration list for PBXNativeTarget "brazil-guess-the-state-and-capital" */;
+			buildPhases = (
+				28A9C3DF29AE801700AC0F09 /* Sources */,
+				28A9C3E029AE801700AC0F09 /* Frameworks */,
+				28A9C3E129AE801700AC0F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "brazil-guess-the-state-and-capital";
+			productName = "brazil-guess-the-state-and-capital";
+			productReference = 28A9C3E329AE801700AC0F09 /* brazil-guess-the-state-and-capital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28A9C3F229AE801800AC0F09 /* brazil-guess-the-state-and-capitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A9C40A29AE801800AC0F09 /* Build configuration list for PBXNativeTarget "brazil-guess-the-state-and-capitalTests" */;
+			buildPhases = (
+				28A9C3EF29AE801800AC0F09 /* Sources */,
+				28A9C3F029AE801800AC0F09 /* Frameworks */,
+				28A9C3F129AE801800AC0F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28A9C3F529AE801800AC0F09 /* PBXTargetDependency */,
+			);
+			name = "brazil-guess-the-state-and-capitalTests";
+			productName = "brazil-guess-the-state-and-capitalTests";
+			productReference = 28A9C3F329AE801800AC0F09 /* brazil-guess-the-state-and-capitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28A9C3FC29AE801800AC0F09 /* brazil-guess-the-state-and-capitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A9C40D29AE801800AC0F09 /* Build configuration list for PBXNativeTarget "brazil-guess-the-state-and-capitalUITests" */;
+			buildPhases = (
+				28A9C3F929AE801800AC0F09 /* Sources */,
+				28A9C3FA29AE801800AC0F09 /* Frameworks */,
+				28A9C3FB29AE801800AC0F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28A9C3FF29AE801800AC0F09 /* PBXTargetDependency */,
+			);
+			name = "brazil-guess-the-state-and-capitalUITests";
+			productName = "brazil-guess-the-state-and-capitalUITests";
+			productReference = 28A9C3FD29AE801800AC0F09 /* brazil-guess-the-state-and-capitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28A9C3DB29AE801700AC0F09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					28A9C3E229AE801700AC0F09 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					28A9C3F229AE801800AC0F09 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 28A9C3E229AE801700AC0F09;
+					};
+					28A9C3FC29AE801800AC0F09 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 28A9C3E229AE801700AC0F09;
+					};
+				};
+			};
+			buildConfigurationList = 28A9C3DE29AE801700AC0F09 /* Build configuration list for PBXProject "brazil-guess-the-state-and-capital" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28A9C3DA29AE801700AC0F09;
+			productRefGroup = 28A9C3E429AE801700AC0F09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28A9C3E229AE801700AC0F09 /* brazil-guess-the-state-and-capital */,
+				28A9C3F229AE801800AC0F09 /* brazil-guess-the-state-and-capitalTests */,
+				28A9C3FC29AE801800AC0F09 /* brazil-guess-the-state-and-capitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28A9C3E129AE801700AC0F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A9C3EE29AE801800AC0F09 /* Preview Assets.xcassets in Resources */,
+				28A9C3EB29AE801800AC0F09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A9C3F129AE801800AC0F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A9C3FB29AE801800AC0F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A9C3DF29AE801700AC0F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A9C3E929AE801700AC0F09 /* ContentView.swift in Sources */,
+				28A9C3E729AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A9C3EF29AE801800AC0F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A9C3F829AE801800AC0F09 /* brazil_guess_the_state_and_capitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A9C3F929AE801800AC0F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A9C40229AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITests.swift in Sources */,
+				28A9C40429AE801800AC0F09 /* brazil_guess_the_state_and_capitalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28A9C3F529AE801800AC0F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28A9C3E229AE801700AC0F09 /* brazil-guess-the-state-and-capital */;
+			targetProxy = 28A9C3F429AE801800AC0F09 /* PBXContainerItemProxy */;
+		};
+		28A9C3FF29AE801800AC0F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28A9C3E229AE801700AC0F09 /* brazil-guess-the-state-and-capital */;
+			targetProxy = 28A9C3FE29AE801800AC0F09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28A9C40529AE801800AC0F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28A9C40629AE801800AC0F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28A9C40829AE801800AC0F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brazil-guess-the-state-and-capital/Preview Content\"";
+				DEVELOPMENT_TEAM = MV9VJQ4UL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeovane.barbosa.brazil-guess-the-state-and-capital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28A9C40929AE801800AC0F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brazil-guess-the-state-and-capital/Preview Content\"";
+				DEVELOPMENT_TEAM = MV9VJQ4UL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeovane.barbosa.brazil-guess-the-state-and-capital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28A9C40B29AE801800AC0F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MV9VJQ4UL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeovane.barbosa.brazil-guess-the-state-and-capitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brazil-guess-the-state-and-capital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brazil-guess-the-state-and-capital";
+			};
+			name = Debug;
+		};
+		28A9C40C29AE801800AC0F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MV9VJQ4UL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeovane.barbosa.brazil-guess-the-state-and-capitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brazil-guess-the-state-and-capital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brazil-guess-the-state-and-capital";
+			};
+			name = Release;
+		};
+		28A9C40E29AE801800AC0F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MV9VJQ4UL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeovane.barbosa.brazil-guess-the-state-and-capitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "brazil-guess-the-state-and-capital";
+			};
+			name = Debug;
+		};
+		28A9C40F29AE801800AC0F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MV9VJQ4UL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeovane.barbosa.brazil-guess-the-state-and-capitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "brazil-guess-the-state-and-capital";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A9C3DE29AE801700AC0F09 /* Build configuration list for PBXProject "brazil-guess-the-state-and-capital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A9C40529AE801800AC0F09 /* Debug */,
+				28A9C40629AE801800AC0F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A9C40729AE801800AC0F09 /* Build configuration list for PBXNativeTarget "brazil-guess-the-state-and-capital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A9C40829AE801800AC0F09 /* Debug */,
+				28A9C40929AE801800AC0F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A9C40A29AE801800AC0F09 /* Build configuration list for PBXNativeTarget "brazil-guess-the-state-and-capitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A9C40B29AE801800AC0F09 /* Debug */,
+				28A9C40C29AE801800AC0F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A9C40D29AE801800AC0F09 /* Build configuration list for PBXNativeTarget "brazil-guess-the-state-and-capitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A9C40E29AE801800AC0F09 /* Debug */,
+				28A9C40F29AE801800AC0F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28A9C3DB29AE801700AC0F09 /* Project object */;
+}
