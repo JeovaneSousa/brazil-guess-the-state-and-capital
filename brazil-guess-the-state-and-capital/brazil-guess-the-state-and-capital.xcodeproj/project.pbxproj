@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28089D5429AFD371003E76F4 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28089D5329AFD371003E76F4 /* States.swift */; };
 		28A9C3E729AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9C3E629AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift */; };
 		28A9C3E929AE801700AC0F09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9C3E829AE801700AC0F09 /* ContentView.swift */; };
 		28A9C3EB29AE801800AC0F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A9C3EA29AE801800AC0F09 /* Assets.xcassets */; };
 		28A9C3EE29AE801800AC0F09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A9C3ED29AE801800AC0F09 /* Preview Assets.xcassets */; };
+		28E207B229AE8A7D00B07694 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E207B129AE8A7D00B07694 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28089D5329AFD371003E76F4 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
 		28A9C3E329AE801700AC0F09 /* brazil-guess-the-state-and-capital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "brazil-guess-the-state-and-capital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A9C3E629AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brazil_guess_the_state_and_capitalApp.swift; sourceTree = "<group>"; };
 		28A9C3E829AE801700AC0F09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		28A9C3ED29AE801800AC0F09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28A9C3F329AE801800AC0F09 /* brazil-guess-the-state-and-capitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "brazil-guess-the-state-and-capitalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A9C3FD29AE801800AC0F09 /* brazil-guess-the-state-and-capitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "brazil-guess-the-state-and-capitalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E207B129AE8A7D00B07694 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28089D5229AFD347003E76F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28089D5329AFD371003E76F4 /* States.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		28A9C3DA29AE801700AC0F09 = {
 			isa = PBXGroup;
 			children = (
@@ -86,10 +98,12 @@
 		28A9C3E529AE801700AC0F09 /* brazil-guess-the-state-and-capital */ = {
 			isa = PBXGroup;
 			children = (
+				28089D5229AFD347003E76F4 /* Model */,
 				28A9C3EC29AE801800AC0F09 /* Preview Content */,
 				28A9C3E629AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift */,
 				28A9C3E829AE801700AC0F09 /* ContentView.swift */,
 				28A9C3EA29AE801800AC0F09 /* Assets.xcassets */,
+				28E207B129AE8A7D00B07694 /* Extensions.swift */,
 			);
 			path = "brazil-guess-the-state-and-capital";
 			sourceTree = "<group>";
@@ -233,7 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A9C3E929AE801700AC0F09 /* ContentView.swift in Sources */,
+				28E207B229AE8A7D00B07694 /* Extensions.swift in Sources */,
 				28A9C3E729AE801700AC0F09 /* brazil_guess_the_state_and_capitalApp.swift in Sources */,
+				28089D5429AFD371003E76F4 /* States.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
