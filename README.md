@@ -18,8 +18,7 @@ The following tools were used during the project development:
 
 Here is how it looks:
 
-
-Uploading Simulator Screen Recording - iPhone 14 - 2023-03-02 at 13.16.54.mp4…
+https://user-images.githubusercontent.com/66012358/222487072-f51a67d5-b678-478b-8dc4-d05dc2d02a2d.mp4
 
 
 
