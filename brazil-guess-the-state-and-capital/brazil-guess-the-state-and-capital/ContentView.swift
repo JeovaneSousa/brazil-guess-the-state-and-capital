@@ -17,7 +17,14 @@ struct ContentView: View {
     @State private var attempts = 4
     @State private var userAnswear = ""
     @State var guesses: [String] = []
-
+    
+    var remainingStates: [String] {
+        return States.abbreviated.keys
+            .filter{
+                !guesses.contains($0)
+            }
+    }
+    
     @State private var answear = States.abbreviated.randomElement()?.key ?? "Error"
     
 
@@ -39,7 +46,7 @@ struct ContentView: View {
                 
                 Image("Colored_States")
                     .resizable()
-                    .frame(width: 200, height: 200)
+                    .frame(width: 180, height: 180)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                     .shadow(radius: 20)
                     .aspectRatio(contentMode: .fit)
@@ -48,7 +55,7 @@ struct ContentView: View {
                     Text("What state of Brazil is this?")
                         .foregroundStyle(.secondary)
                         
-                    Text(States.abbreviated[answear]!)
+                    Text(States.abbreviated[answear] ?? "Well played! Press again to end.")
                         .font(.largeTitle.weight(.medium))
                         .foregroundStyle(.primary)
 
@@ -78,7 +85,7 @@ struct ContentView: View {
                 .background(Color.blackCool.opacity(0.2))
                 .clipShape(RoundedRectangle.init(cornerRadius: 20))
                    
-                    VStack(spacing: 140) {
+                    VStack {
                         Text("Score: \(score)")
                             .font(.title.weight(.bold))
                             .foregroundStyle(.secondary)
@@ -94,6 +101,9 @@ struct ContentView: View {
         
         .alert("Right answear!", isPresented: $showCorrectAlert) {
             Button("Continue") {
+                if remainingStates.isEmpty {
+                    endGame = true
+                }
                 getNewAnswear()
             }
             
@@ -105,7 +115,9 @@ struct ContentView: View {
             Button("Continue") {
                 if attempts == 0 {
                     gameOver = true
-                } else {getNewAnswear()}
+                } else {
+                    getNewAnswear()
+                }
             }
             
         } message: {
@@ -121,7 +133,7 @@ struct ContentView: View {
             Text("Better luck next time!")
         }
         
-        .alert("Yay!",isPresented: $endGame) {
+        .alert("Yay! You won!", isPresented: $endGame) {
             Button("Try Again") {
                 restart()
             }
@@ -158,8 +170,7 @@ struct ContentView: View {
     }
     
     private func getNewAnswear() {
-        answear = States.abbreviated.keys
-            .filter{!guesses.contains($0)}.randomElement() ?? "Error"
+        answear = remainingStates.randomElement() ?? "Error"
     }
 }
         
